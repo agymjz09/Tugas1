@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="B">
+        <div class="sidebar">
+            <div class="nama">
+                <img src="user.jpeg" alt="image" height="55" width="55">
+                <h4>Agym Mahaputra R. B <br>F55121076</h4>
+            </div>           
+            <ul>
+                <li><i class="fas fa-home"></i><a href="main.html" class="title">Home</a></li>
+                <li><i class="fas fa-table-cells"></i><a href="table.html" class="title">Data Penjualan Sepeda</a></li>
+                <li><i class="fas fa-mail-bulk"></i><a href="form.html" class="title">Pendataan Sepeda</a></li>
+                <li><i class="fas fa-long-arrow-left"></i><a href="index.html" class="title">Log Out</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="top-bar">
+                <div class="konten">
+                    <div class="isi">
+                        <h1>PENDATAAN SEPEDA</h1>
+                    </div>
+                    <div class="pengisian">
+                        <form action="" method="post">
+                            <div class="table1">
+                            <table>
+                                <tr>
+                                    <td>Nama Sepeda</td>
+                                    <td> : </td>
+                                    <td><input type="text" name="depan" class="inp" /></td>
+                                </tr>
+                                <tr>
+                                    <td>Jenis Sepeda</td>
+                                    <td> : </td>
+                                    <td><input type="text" name="belakang" class="inp"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Pabrikan</td>
+                                    <td> : </td>
+                                    <td><input type="text" name="alamat" class="inp"/></td>
+                                </tr>
+                            <tr>
+                                <td>Tahun Produksi</td>
+                                <td> : </td>
+                                <td><input type="date" name="ttl" class="inp"/></td>
+                            </tr>
+                            <tr>
+                                <td>Upload Gambar</td>
+                                <td> : </td>
+                                <td><input type="file" name="gambar" name="gambar" class="inp"/></td> 
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td><form name="input" action="proses.php" method="get" >
+                                <input type="submit" value="simpan" class="inp"/>
+                                <input type="reset" value="reset" class="inp"/>
+                                </form></td>
+                            </tr>
+                        </table>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
